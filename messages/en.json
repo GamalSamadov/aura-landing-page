@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Aura — AI money management that budgets for you",
+    "description": "Aura connects your accounts, categorizes every transaction with AI, and builds a budget that adapts to your life. Join the early-access waitlist."
+  },
+  "nav": {
+    "features": "Features",
+    "how": "How it works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "joinWaitlist": "Join waitlist",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "waitlist": {
+    "placeholder": "Enter your email",
+    "submit": "Get early access",
+    "submitting": "Joining…",
+    "success": "You’re on the list!",
+    "successDesc": "We’ll email you the moment your early access is ready.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorGeneric": "Something went wrong. Please try again."
+  },
+  "hero": {
+    "badge": "Now in private beta",
+    "title": "Your money, finally on",
+    "titleAccent": "autopilot",
+    "subtitle": "Aura links your accounts, sorts every expense with AI, and builds a budget that adjusts as life happens — so you always know exactly where you stand.",
+    "trust": "Join 12,000+ people on the waitlist · No credit card needed",
+    "secondary": "See how it works"
+  },
+  "mockup": {
+    "aiTag": "AI insight",
+    "balance": "Total balance",
+    "spent": "Spent this month",
+    "left": "Left to spend",
+    "onTrack": "On track",
+    "dining": "Dining",
+    "groceries": "Groceries",
+    "transport": "Transport",
+    "subscriptions": "Subscriptions",
+    "insight": "You’re spending 18% less on dining than last month. Nice work!"
+  },
+  "stats": {
+    "items": [
+      { "value": "12k+", "label": "People on the waitlist" },
+      { "value": "98%", "label": "Transactions auto-categorized" },
+      { "value": "4.9★", "label": "Average beta rating" },
+      { "value": "$1.2k", "label": "Avg. saved per user / year" }
+    ]
+  },
+  "features": {
+    "title": "Everything you need to feel in control",
+    "subtitle": "Aura handles the tedious parts of money management so you can make better decisions, faster.",
+    "items": [
+      {
+        "icon": "Sparkles",
+        "title": "AI auto-categorization",
+        "desc": "Every transaction is labeled the moment it lands — no spreadsheets, no manual tagging."
+      },
+      {
+        "icon": "Wallet",
+        "title": "Budgets that adapt",
+        "desc": "Aura learns your habits and adjusts your budget as your income and spending change."
+      },
+      {
+        "icon": "LineChart",
+        "title": "Spending insights",
+        "desc": "Clear, friendly breakdowns show where your money goes and where you can trim."
+      },
+      {
+        "icon": "Bell",
+        "title": "Smart alerts",
+        "desc": "Get a heads-up before you overspend, when bills are due, or when something looks off."
+      },
+      {
+        "icon": "Target",
+        "title": "Goals on autopilot",
+        "desc": "Set a goal and Aura moves money toward it automatically, a little at a time."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Bank-grade security",
+        "desc": "256-bit encryption and read-only connections. Your data is never sold."
+      }
+    ]
+  },
+  "how": {
+    "title": "Set up in under three minutes",
+    "subtitle": "No finance degree required.",
+    "steps": [
+      {
+        "title": "Connect your accounts",
+        "desc": "Securely link your banks and cards in a few taps. Aura stays read-only."
+      },
+      {
+        "title": "Let the AI do the sorting",
+        "desc": "Transactions are categorized and a starter budget is built for you instantly."
+      },
+      {
+        "title": "Watch your money work",
+        "desc": "Track progress, hit your goals, and get gentle nudges that keep you on plan."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Loved by early testers",
+    "subtitle": "Real reactions from our private beta.",
+    "items": [
+      {
+        "quote": "I finally stopped guessing where my paycheck went. Aura just shows me.",
+        "name": "Maya R.",
+        "role": "Designer"
+      },
+      {
+        "quote": "The auto-budget caught two subscriptions I’d completely forgotten about.",
+        "name": "Daniel K.",
+        "role": "Freelancer"
+      },
+      {
+        "quote": "It feels less like budgeting and more like having a tiny finance team.",
+        "name": "Priya S.",
+        "role": "Product manager"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple pricing, free to start",
+    "subtitle": "Join the waitlist now — early members get Plus free for their first year.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "save": "Save 20%",
+    "perMonth": "/mo",
+    "billedAnnually": "billed annually",
+    "popular": "Most popular",
+    "tiers": [
+      {
+        "name": "Free",
+        "priceMonthly": 0,
+        "desc": "The essentials to get organized.",
+        "features": [
+          "Connect up to 2 accounts",
+          "AI categorization",
+          "Monthly budget",
+          "Spending overview"
+        ],
+        "cta": "Join waitlist"
+      },
+      {
+        "name": "Plus",
+        "priceMonthly": 8,
+        "desc": "For people serious about their goals.",
+        "features": [
+          "Unlimited accounts",
+          "Adaptive budgets",
+          "Goals & autosave",
+          "Smart alerts",
+          "Custom categories"
+        ],
+        "cta": "Join waitlist"
+      },
+      {
+        "name": "Premium",
+        "priceMonthly": 16,
+        "desc": "Your money, fully on autopilot.",
+        "features": [
+          "Everything in Plus",
+          "AI financial coach",
+          "Bill negotiation",
+          "Net-worth tracking",
+          "Priority support"
+        ],
+        "cta": "Join waitlist"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "subtitle": "Everything else you might be wondering.",
+    "items": [
+      {
+        "q": "Is my financial data safe?",
+        "a": "Yes. Aura uses 256-bit encryption and read-only connections through trusted banking partners. We never sell your data, and we can’t move your money."
+      },
+      {
+        "q": "When does early access open?",
+        "a": "We’re onboarding waitlist members in batches throughout the beta. Join now to claim a spot near the front of the line."
+      },
+      {
+        "q": "Which banks are supported?",
+        "a": "Aura connects with thousands of banks and card issuers across major regions. If yours isn’t supported yet, you’ll be the first to know when it is."
+      },
+      {
+        "q": "How much will it cost?",
+        "a": "There’s a free plan forever. Paid plans start at $8/mo — and waitlist members get Plus free for their first year."
+      },
+      {
+        "q": "Do I need to be good with money?",
+        "a": "Not at all. Aura is built for people who’d rather not think about budgets. It does the work and explains everything in plain language."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Take control of your money today",
+    "subtitle": "Join 12,000+ people getting early access to Aura. It’s free to start."
+  },
+  "footer": {
+    "tagline": "AI-powered personal finance that budgets for you.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "security": "Security",
+    "rights": "All rights reserved.",
+    "disclaimer": "Aura is a product concept. Figures shown are illustrative."
+  }
+}

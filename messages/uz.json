@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "title": "Aura — siz uchun byudjet tuzadigan AI moliya yordamchisi",
+    "description": "Aura hisoblaringizni ulaydi, har bir tranzaksiyani AI yordamida tasniflaydi va hayotingizga moslashadigan byudjet tuzadi. Erta kirish ro‘yxatiga yoziling."
+  },
+  "nav": {
+    "features": "Imkoniyatlar",
+    "how": "Qanday ishlaydi",
+    "pricing": "Narxlar",
+    "faq": "Savol-javob",
+    "joinWaitlist": "Ro‘yxatga yozilish",
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish"
+  },
+  "waitlist": {
+    "placeholder": "Email manzilingiz",
+    "submit": "Erta kirishni olish",
+    "submitting": "Yozilmoqda…",
+    "success": "Siz ro‘yxatdasiz!",
+    "successDesc": "Erta kirish tayyor bo‘lishi bilan sizga email yuboramiz.",
+    "errorEmail": "Iltimos, to‘g‘ri email manzil kiriting.",
+    "errorGeneric": "Xatolik yuz berdi. Qayta urinib ko‘ring."
+  },
+  "hero": {
+    "badge": "Hozir yopiq betada",
+    "title": "Pulingiz nihoyat",
+    "titleAccent": "avtopilotda",
+    "subtitle": "Aura hisoblaringizni ulaydi, har bir xarajatni AI bilan tartiblaydi va hayot o‘zgarishiga moslashadigan byudjet tuzadi — shunda ahvolingizni doim aniq bilasiz.",
+    "trust": "12 000+ kishi ro‘yxatda · Karta kerak emas",
+    "secondary": "Qanday ishlashini ko‘ring"
+  },
+  "mockup": {
+    "aiTag": "AI tahlili",
+    "balance": "Umumiy balans",
+    "spent": "Bu oy sarflandi",
+    "left": "Sarflash mumkin",
+    "onTrack": "Reja bo‘yicha",
+    "dining": "Ovqatlanish",
+    "groceries": "Oziq-ovqat",
+    "transport": "Transport",
+    "subscriptions": "Obunalar",
+    "insight": "Bu oy ovqatlanishga o‘tgan oyga qaraganda 18% kam sarfladingiz. Zo‘r!"
+  },
+  "stats": {
+    "items": [
+      { "value": "12k+", "label": "Ro‘yxatdagi kishilar" },
+      { "value": "98%", "label": "Avto-tasniflangan tranzaksiyalar" },
+      { "value": "4.9★", "label": "O‘rtacha beta bahosi" },
+      { "value": "$1.2k", "label": "Yiliga har foydalanuvchi tejovi" }
+    ]
+  },
+  "features": {
+    "title": "Nazoratni his qilish uchun barchasi",
+    "subtitle": "Aura pul boshqaruvining zerikarli qismini o‘z zimmasiga oladi — siz tezroq va yaxshiroq qaror qabul qilasiz.",
+    "items": [
+      {
+        "icon": "Sparkles",
+        "title": "AI avto-tasnif",
+        "desc": "Har bir tranzaksiya kelishi bilan belgilanadi — jadvallar ham, qo‘lda teglash ham kerak emas."
+      },
+      {
+        "icon": "Wallet",
+        "title": "Moslashuvchan byudjet",
+        "desc": "Aura odatlaringizni o‘rganadi va daromad-xarajatingiz o‘zgarganda byudjetni moslaydi."
+      },
+      {
+        "icon": "LineChart",
+        "title": "Xarajat tahlili",
+        "desc": "Aniq va tushunarli ko‘rsatkichlar pulingiz qayerga ketishini va nimani qisqartirishni ko‘rsatadi."
+      },
+      {
+        "icon": "Bell",
+        "title": "Aqlli ogohlantirishlar",
+        "desc": "Ortiqcha sarflashdan oldin, to‘lov muddati kelganda yoki nimadir noto‘g‘ri bo‘lganda xabar beradi."
+      },
+      {
+        "icon": "Target",
+        "title": "Avtopilotdagi maqsadlar",
+        "desc": "Maqsad qo‘ying — Aura unga sari pulni o‘zi, oz-ozdan yo‘naltiradi."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Bank darajasidagi xavfsizlik",
+        "desc": "256-bitli shifrlash va faqat o‘qish uchun ulanish. Ma’lumotlaringiz hech qachon sotilmaydi."
+      }
+    ]
+  },
+  "how": {
+    "title": "Uch daqiqadan kamroq vaqtda sozlang",
+    "subtitle": "Moliya diplomi shart emas.",
+    "steps": [
+      {
+        "title": "Hisoblaringizni ulang",
+        "desc": "Bank va kartalaringizni bir necha bosishda xavfsiz ulang. Aura faqat o‘qiydi."
+      },
+      {
+        "title": "Tasniflashni AIga qoldiring",
+        "desc": "Tranzaksiyalar tasniflanadi va siz uchun boshlang‘ich byudjet darhol tuziladi."
+      },
+      {
+        "title": "Pulingiz ishlayotganini kuzating",
+        "desc": "Jarayonni kuzating, maqsadlarga yeting va rejada qolishingizga yordam beradigan eslatmalar oling."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Dastlabki sinovchilar yoqtirgan",
+    "subtitle": "Yopiq betadagi haqiqiy fikrlar.",
+    "items": [
+      {
+        "quote": "Maoshim qayerga ketganini taxmin qilishni nihoyat bas qildim. Aura shunchaki ko‘rsatadi.",
+        "name": "Maya R.",
+        "role": "Dizayner"
+      },
+      {
+        "quote": "Avto-byudjet men butunlay unutgan ikkita obunani topib berdi.",
+        "name": "Daniel K.",
+        "role": "Frilanser"
+      },
+      {
+        "quote": "Bu byudjet tuzishdan ko‘ra kichkina moliya jamoasiga o‘xshaydi.",
+        "name": "Priya S.",
+        "role": "Mahsulot menejeri"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Oddiy narxlar, bepul boshlang",
+    "subtitle": "Hozir ro‘yxatga yoziling — dastlabki a’zolar birinchi yil Plus’ni bepul oladi.",
+    "monthly": "Oylik",
+    "annual": "Yillik",
+    "save": "20% tejang",
+    "perMonth": "/oy",
+    "billedAnnually": "yillik to‘lov",
+    "popular": "Eng ommabop",
+    "tiers": [
+      {
+        "name": "Free",
+        "priceMonthly": 0,
+        "desc": "Tartibga solish uchun zarur narsalar.",
+        "features": [
+          "2 tagacha hisob ulash",
+          "AI tasnifi",
+          "Oylik byudjet",
+          "Xarajatlar sharhi"
+        ],
+        "cta": "Ro‘yxatga yozilish"
+      },
+      {
+        "name": "Plus",
+        "priceMonthly": 8,
+        "desc": "Maqsadlariga jiddiy qaraydiganlar uchun.",
+        "features": [
+          "Cheksiz hisoblar",
+          "Moslashuvchan byudjet",
+          "Maqsad va avto-jamg‘arma",
+          "Aqlli ogohlantirishlar",
+          "Maxsus turkumlar"
+        ],
+        "cta": "Ro‘yxatga yozilish"
+      },
+      {
+        "name": "Premium",
+        "priceMonthly": 16,
+        "desc": "Pulingiz to‘liq avtopilotda.",
+        "features": [
+          "Plus’dagi barchasi",
+          "AI moliyaviy murabbiy",
+          "Hisoblar bo‘yicha kelishuv",
+          "Sof boylik kuzatuvi",
+          "Ustuvor qo‘llab-quvvatlash"
+        ],
+        "cta": "Ro‘yxatga yozilish"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Savollarga javoblar",
+    "subtitle": "Yana qiziqishingiz mumkin bo‘lgan hamma narsa.",
+    "items": [
+      {
+        "q": "Moliyaviy ma’lumotlarim xavfsizmi?",
+        "a": "Ha. Aura 256-bitli shifrlash va ishonchli bank hamkorlar orqali faqat o‘qish uchun ulanishdan foydalanadi. Ma’lumotlaringizni hech qachon sotmaymiz va pulingizni ko‘chira olmaymiz."
+      },
+      {
+        "q": "Erta kirish qachon ochiladi?",
+        "a": "Beta davomida ro‘yxatdagilarni guruhlar bilan qo‘shib boramiz. Hozir yozilsangiz, navbatning oldida joy olasiz."
+      },
+      {
+        "q": "Qaysi banklar qo‘llab-quvvatlanadi?",
+        "a": "Aura asosiy mintaqalardagi minglab bank va karta chiqaruvchilar bilan ulanadi. Sizniki hali bo‘lmasa, qo‘shilishi bilan birinchi bo‘lib bilasiz."
+      },
+      {
+        "q": "Narxi qancha bo‘ladi?",
+        "a": "Doimiy bepul reja bor. Pullik rejalar $8/oydan boshlanadi — ro‘yxatdagilar esa birinchi yil Plus’ni bepul oladi."
+      },
+      {
+        "q": "Pulni yaxshi boshqarishim kerakmi?",
+        "a": "Umuman yo‘q. Aura byudjet haqida o‘ylashni xohlamaydiganlar uchun yaratilgan. U ishni o‘zi qiladi va hammasini oddiy tilda tushuntiradi."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bugun pulingizni nazoratga oling",
+    "subtitle": "Aura’ga erta kirish olayotgan 12 000+ kishiga qo‘shiling. Boshlash bepul."
+  },
+  "footer": {
+    "tagline": "Siz uchun byudjet tuzadigan AI shaxsiy moliya.",
+    "product": "Mahsulot",
+    "company": "Kompaniya",
+    "legal": "Huquqiy",
+    "about": "Biz haqimizda",
+    "blog": "Blog",
+    "careers": "Vakansiyalar",
+    "privacy": "Maxfiylik",
+    "terms": "Shartlar",
+    "security": "Xavfsizlik",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "disclaimer": "Aura — mahsulot konsepsiyasi. Ko‘rsatilgan raqamlar namunaviy."
+  }
+}

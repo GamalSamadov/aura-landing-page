@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aura — landing page
 
-## Getting Started
+AI personal-finance waitlist landing page. Built with **Next.js 16 (App Router)**,
+**TypeScript**, **Tailwind CSS v4**, **next-intl** (EN / UZ / RU) and **next-themes**
+(light / dark).
 
-First, run the development server:
+## Run it
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install      # first time only
+npm run dev      # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`npm run build` makes a production build; `npm start` serves it.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Where to edit things
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| You want to change… | Edit this |
+| --- | --- |
+| All text / copy (3 languages) | `messages/en.json`, `messages/uz.json`, `messages/ru.json` |
+| Brand colors, dark mode, radius | `src/app/globals.css` (the `:root` / `.dark` token blocks) |
+| Product name, nav links | `src/lib/site.ts` |
+| The page sections & order | `src/app/[locale]/page.tsx` + files in `src/components/sections/` |
+| Where waitlist emails go | `src/app/api/waitlist/route.ts` |
+| Social / OG preview image | `src/app/[locale]/opengraph-image.tsx` |
+| SEO title/description per language | the `meta` block in each `messages/*.json` |
 
-## Learn More
+All three language files **must have the same keys** — add a key to one, add it to all.
 
-To learn more about Next.js, take a look at the following resources:
+## Add a language
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Add the code to `locales` in `src/i18n/routing.ts` (e.g. `"kk"`).
+2. Copy `messages/en.json` to `messages/kk.json` and translate the values.
+3. Add a label in `src/components/ui/LanguageSwitcher.tsx` (`LABELS` / `SHORT`).
+4. Add it to `alternates.languages` in `src/app/[locale]/layout.tsx`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Theme
 
-## Deploy on Vercel
+Default is the visitor's system preference. Change `defaultTheme` in
+`src/app/[locale]/layout.tsx` to `"light"` or `"dark"` to force one.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Still to provide before launch
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- A real logo (replace the SVG in `src/components/ui/Logo.tsx`).
+- A backend for the waitlist (database / email service) — wire it in
+  `src/app/api/waitlist/route.ts`. Right now it validates and logs the email.
+- Real testimonials and final pricing (placeholders live in the message files).
+- Your production domain in `src/lib/site.ts` (`url`) so SEO/OG links are absolute.
